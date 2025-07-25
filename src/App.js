@@ -14,7 +14,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route exact path="/MRM" element={<MRM />} />
+        <Route exact path="/" element={<MRM />} />
         {/* <Route path="/about" element={<About />} />
         <Route
           path="/contact"
